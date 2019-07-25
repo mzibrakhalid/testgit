@@ -16,7 +16,11 @@ namespace WebApplication1_forgit
         {
             CreateWebHostBuilder(args).Build().Run();
         }
-
+        /// <summary>
+        /// /hello khalid
+        /// </summary>
+        /// <param name="args"></param>
+        /// <returns></returns>
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
